@@ -1,0 +1,29 @@
+{
+    "name": "sles/lti-imsglobal-fork",
+    "description": "LTI Tool Provider Library",
+    "keywords": ["lti"],
+    "homepage": "https://www.imsglobal.org/lti",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors":[
+        {
+            "name": "Stephen Vickers",
+            "email": "svickers@imsglobal.org"
+        },
+        {
+            "name": "Sergey",
+            "email": "serg.lesn@gmail.com"
+        }
+    ],
+    "require":{
+        "php": ">=5.6.0"
+    },
+    "replace": {
+        "imsglobal/lti": "3.0.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "IMSGlobal\\LTI\\": "src/"
+        }
+    }
+}
